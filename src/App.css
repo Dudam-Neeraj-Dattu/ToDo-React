@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(255, 244, 230);
+}
+
+.App {
+  text-align: center;
+  margin-top: 10px;  
+  /* background-color: antiquewhite; */
+  width: 80%;
+  margin: auto;
+}
+
+.App .addTask {
+  background-color: rgb(175, 255, 255);
+  height: 100px;
+  align-content: center;
+  padding: 40px;
+  border-radius: 5px;
+  /* display: block; */
+}
+
+.App .addTask #text {
+  height: 30px;
+  width: 400px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.App .addTask #addtask {
+  height: 25px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:darkmagenta;
+}
+
+.App .showTask {
+  /* margin-top:  10px; */
+}
+
+.App .showTask .taskName {
+  border-radius: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: azure;
+  justify-content: center;
+  margin-top:  10px;
+}
+
+.App .showTask .taskName .task h3 {
+  padding-top: 10px;
+  margin-top: 0px;
+}
+
+.App .showTask .taskName .buttons {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+}
+
+.App .showTask .taskName .buttons button {
+  height: 25px;
+  width: 100px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:darkmagenta;
+  margin-bottom: 10px;
+}
+
+
+
